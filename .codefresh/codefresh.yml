@@ -96,4 +96,4 @@ steps:
     type: push
     candidate: '${{BuildingDockerImage}}'
     tag: '${{CF_BRANCH_TAG_NORMALIZED}}'
-    registry: aarlaudsnyk
+    registry: mpalermo/snyk-test-repo
