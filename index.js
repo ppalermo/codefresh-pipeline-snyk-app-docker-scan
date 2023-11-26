@@ -6,7 +6,7 @@ const filter = '.movies[].title'
 
 const options = {}
 
-console.log("Star Wars titles 1");
+console.log("Star Wars titles 2");
 
 jq.run(filter, jsonPath, options)
   .then((output) => {
